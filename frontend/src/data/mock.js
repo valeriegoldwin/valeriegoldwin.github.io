@@ -26,20 +26,24 @@ export const portfolioData = {
     solution: "Designed an intuitive mobile app with a friendly mascot-driven experience that combines virtual queue joining, location-based eatery discovery, dietary tag filtering, and ongoing promo highlights — all in one seamless interface.",
     process: [
       {
-        phase: "Research",
-        description: "Conducted user interviews with frequent diners and restaurant operators to understand pain points around queue waiting times and dietary discovery challenges."
+        phase: "User Research",
+        description: "Conducted user interviews and competitive analysis to understand pain points around queue waiting times and dietary discovery challenges."
       },
       {
-        phase: "Ideation",
-        description: "Created user personas, journey maps, and explored playful brand directions. Developed the friendly koala mascot to make the app approachable and memorable."
+        phase: "User Flow",
+        description: "Mapped out end-to-end user journeys for joining queues, discovering eateries by tags and cuisines, and tracking ongoing promos."
       },
       {
-        phase: "Design",
-        description: "Built a warm, appetizing color palette with orange tones. Designed key flows for joining queues, browsing eateries by tags and cuisines, and viewing ongoing promotions."
+        phase: "Wireframes",
+        description: "Created low-fidelity wireframes to explore layouts and validate the structure of key screens before moving to visual design."
       },
       {
-        phase: "Testing",
-        description: "Ran usability tests focused on the queue-joining flow and tag-based filtering. Iterated on the search experience based on feedback for faster eatery discovery."
+        phase: "UI Design",
+        description: "Designed high-fidelity screens with a warm orange palette and friendly koala mascot to make the experience approachable and memorable."
+      },
+      {
+        phase: "Prototype",
+        description: "Built an interactive prototype to simulate the core flows, enabling usability testing and stakeholder feedback before development."
       }
     ],
     results: [
