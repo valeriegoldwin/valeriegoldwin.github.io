@@ -90,6 +90,22 @@ export const portfolioData = {
       description: "An application for ordering custom stuff — users can design and customize products like shoes, t-shirts, and books with templates, uploads, and stickers.",
       image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/vuuwx9ic_6.png",
       tags: ["Mobile", "E-Commerce"]
+    },
+    {
+      id: 7,
+      title: "Paimonpedia",
+      category: "Mobile App",
+      description: "Genshin Impact data & tools companion app providing character information, weapon stats, domain drops, daily check-in, and redeem codes for travelers.",
+      image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/n4jq5kda_5.png",
+      tags: ["Mobile", "Gaming"]
+    },
+    {
+      id: 8,
+      title: "MedicMe",
+      category: "Mobile App",
+      description: "A medical healthcare app for doctor consultations, ambulance booking, health store, Covid-19 care services, and finding nearby hospitals and specialists.",
+      image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/z1i97mbq_7.png",
+      tags: ["Mobile", "Healthcare"]
     }
   ],
   skills: [
