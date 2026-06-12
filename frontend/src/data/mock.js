@@ -2,7 +2,7 @@ export const portfolioData = {
   hero: {
     name: "Valerie Goldwin",
     title: "UI/UX Designer",
-    tagline: "UI/UX Designer who builds user-centered mobile experiences from concept to product.",
+    tagline: "UI/UX Designer designing user-centered web and mobile experiences from concept to product.",
     cta: "View My Work"
   },
   about: {
