@@ -26,11 +26,11 @@ export const Projects = () => {
         <div className="mb-32">
           <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-80 md:h-auto overflow-hidden bg-gray-100">
+              <div className="relative overflow-hidden bg-gradient-to-br from-orange-100 to-orange-50">
                 <img
                   src={featuredProject.image}
                   alt={featuredProject.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute top-4 left-4">
                   <Badge className="bg-blue-600 text-white">

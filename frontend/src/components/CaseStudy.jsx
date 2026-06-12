@@ -56,11 +56,11 @@ export const CaseStudy = () => {
       {/* Featured Image */}
       <div className="py-12 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="rounded-2xl overflow-hidden shadow-2xl">
+          <div className="rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-orange-100 to-orange-50">
             <img
               src={featuredProject.image}
               alt={featuredProject.title}
-              className="w-full h-[500px] object-cover"
+              className="w-full h-auto object-contain mx-auto"
             />
           </div>
         </div>
