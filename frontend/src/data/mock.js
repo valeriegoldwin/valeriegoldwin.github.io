@@ -44,6 +44,10 @@ export const portfolioData = {
       {
         phase: "Prototype",
         description: "Built an interactive prototype to simulate the core flows, enabling usability testing and stakeholder feedback before development."
+      },
+      {
+        phase: "Usability Testing",
+        description: "Ran usability tests with target users to validate the queue-joining flow and tag-based filtering. Iterated on the search experience based on feedback for faster eatery discovery."
       }
     ],
     results: [
@@ -52,6 +56,7 @@ export const portfolioData = {
       "85% of users returned within 7 days"
     ],
     tools: ["Figma", "Maze", "Principle", "Miro"],
+    demoVideo: "#",
     image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/dhlyzyzu_2.png"
   },
   projects: [

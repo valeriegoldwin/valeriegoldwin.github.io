@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, ExternalLink } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Play } from 'lucide-react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { Card } from './ui/card';
@@ -146,6 +146,24 @@ export const CaseStudy = () => {
                 </Badge>
               ))}
             </div>
+          </div>
+
+          {/* Demo Video */}
+          <div className="space-y-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Demo Video
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Watch a walkthrough of the Yum Yum app in action — explore the queue-joining flow, dietary filtering, and eatery discovery features.
+            </p>
+            <Button
+              onClick={() => window.open(featuredProject.demoVideo, '_blank')}
+              size="lg"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-base transition-all duration-300 group w-fit"
+            >
+              <Play className="mr-2 group-hover:scale-110 transition-transform" size={20} />
+              View Demo
+            </Button>
           </div>
         </div>
       </div>
