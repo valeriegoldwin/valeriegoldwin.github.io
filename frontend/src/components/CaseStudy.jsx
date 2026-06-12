@@ -140,14 +140,17 @@ export const CaseStudy = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
               Results & Impact
             </h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              {featuredProject.resultsIntro}
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {featuredProject.results.map((result, index) => (
-                <Card key={index} className="p-8 text-center bg-gray-50 border-0 shadow-sm hover:shadow-md transition-shadow">
-                  <p className="text-2xl font-bold text-gray-900 mb-2">
-                    {result.split(' ')[0]}
+                <Card key={index} className="p-8 bg-gray-50 border-0 shadow-sm hover:shadow-md transition-shadow">
+                  <p className="text-4xl font-bold text-blue-600 mb-3">
+                    {result.metric}
                   </p>
-                  <p className="text-gray-600">
-                    {result.split(' ').slice(1).join(' ')}
+                  <p className="text-gray-700 leading-relaxed">
+                    {result.label}
                   </p>
                 </Card>
               ))}

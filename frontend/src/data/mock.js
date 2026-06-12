@@ -50,10 +50,13 @@ export const portfolioData = {
         description: "Ran usability tests with target users to validate the queue-joining flow and tag-based filtering. Iterated on the search experience based on feedback for faster eatery discovery."
       }
     ],
+    resultsIntro: "A usability evaluation was conducted involving 102 customer respondents and 2 restaurant owners. The results indicate strong user acceptance of the application:",
     results: [
-      "60% reduction in perceived wait time",
-      "4.9/5 user satisfaction score",
-      "85% of users returned within 7 days"
+      { metric: "89%", label: "did not require a long time to learn how to use the application" },
+      { metric: "92%", label: "felt the application provided fast and responsive performance" },
+      { metric: "93%", label: "reported not experiencing errors during usage" },
+      { metric: "91%", label: "could still remember how to use the application's features after a period of non-use" },
+      { metric: "98%", label: "expressed overall satisfaction with the application" }
     ],
     tools: ["Figma", "Maze", "Principle", "Miro"],
     demoVideo: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/3rz0jxbz_Yum%20Yum%20Feature%20Demo.mp4",
