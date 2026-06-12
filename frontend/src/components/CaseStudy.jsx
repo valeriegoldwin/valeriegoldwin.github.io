@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, Play } from 'lucide-react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { Card } from './ui/card';
+import { Dialog, DialogContent, DialogTitle } from './ui/dialog';
 import { portfolioData } from '../data/mock';
 
 export const CaseStudy = () => {
   const navigate = useNavigate();
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
   const { featuredProject } = portfolioData;
 
   return (
@@ -124,7 +126,7 @@ export const CaseStudy = () => {
               Watch a walkthrough of the Yum Yum app in action — explore the queue-joining flow, dietary filtering, and eatery discovery features.
             </p>
             <Button
-              onClick={() => window.open(featuredProject.demoVideo, '_blank')}
+              onClick={() => setIsVideoOpen(true)}
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-base transition-all duration-300 group w-fit"
             >
@@ -189,6 +191,23 @@ export const CaseStudy = () => {
           </Button>
         </div>
       </div>
+
+      {/* Video Dialog */}
+      <Dialog open={isVideoOpen} onOpenChange={setIsVideoOpen}>
+        <DialogContent className="max-w-4xl p-0 bg-black border-0 overflow-hidden">
+          <DialogTitle className="sr-only">Yum Yum Demo Video</DialogTitle>
+          {isVideoOpen && (
+            <video
+              src={featuredProject.demoVideo}
+              controls
+              autoPlay
+              className="w-full h-auto"
+            >
+              Your browser does not support the video tag.
+            </video>
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };

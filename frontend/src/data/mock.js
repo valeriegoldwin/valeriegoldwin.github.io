@@ -56,7 +56,7 @@ export const portfolioData = {
       "85% of users returned within 7 days"
     ],
     tools: ["Figma", "Maze", "Principle", "Miro"],
-    demoVideo: "#",
+    demoVideo: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/3rz0jxbz_Yum%20Yum%20Feature%20Demo.mp4",
     image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/dhlyzyzu_2.png"
   },
   projects: [
