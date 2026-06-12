@@ -39,7 +39,7 @@ export const portfolioData = {
       },
       {
         phase: "UI Design",
-        description: "Designed high-fidelity screens with a warm orange palette and friendly koala mascot to make the experience approachable and memorable."
+        description: "Designed high-fidelity screens with a warm orange palette and friendly bear mascot to make the experience approachable and memorable."
       },
       {
         phase: "Prototype",
