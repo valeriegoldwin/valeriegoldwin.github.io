@@ -53,27 +53,43 @@ export const portfolioData = {
   projects: [
     {
       id: 2,
-      title: "E-Commerce Dashboard",
+      title: "Doctor Assist - SaaS E-Invoice Module",
       category: "Web Application",
-      description: "Redesigned analytics dashboard for online retailers to track sales, inventory, and customer insights.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
-      tags: ["Web Design", "Data Visualization"]
+      description: "Practical clinic management solution with an E-Invoice module designed for streamlined billing and consolidated invoicing for healthcare providers.",
+      image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/uge151x2_Portfolio%20Valerie.png",
+      tags: ["SaaS", "Healthcare"]
     },
     {
       id: 3,
-      title: "Banking App Redesign",
-      category: "Mobile App",
-      description: "Modern redesign of legacy banking app focusing on simplified navigation and enhanced security features.",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      tags: ["Mobile", "Fintech"]
+      title: "ShopNGain",
+      category: "Web & Mobile Platform",
+      description: "Boost content and earn cash platform where users connect, engage, and earn through wallet top-ups, content boosting, and rewards.",
+      image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/9qahmuol_1.png",
+      tags: ["Web", "Mobile", "Fintech"]
     },
     {
       id: 4,
-      title: "Travel Planning Platform",
-      category: "Web Application",
-      description: "Collaborative travel planning tool with itinerary sharing and real-time updates for group trips.",
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80",
-      tags: ["Web Design", "Social"]
+      title: "FukuWallet",
+      category: "Mobile App",
+      description: "A friendly personal finance app with playful mascot branding that helps users track income, expenses, and budget across multiple categories.",
+      image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/vs0eonfz_3.png",
+      tags: ["Mobile", "Finance"]
+    },
+    {
+      id: 5,
+      title: "PetPal.co",
+      category: "Mobile App",
+      description: "Pet caring becomes easy — a community-driven app for pet owners covering training, adoption, donations, pet feeds, and salon & vet services.",
+      image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/6khio3yq_4.png",
+      tags: ["Mobile", "Community"]
+    },
+    {
+      id: 6,
+      title: "AsYouWish",
+      category: "Mobile App",
+      description: "An application for ordering custom stuff — users can design and customize products like shoes, t-shirts, and books with templates, uploads, and stickers.",
+      image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/vuuwx9ic_6.png",
+      tags: ["Mobile", "E-Commerce"]
     }
   ],
   skills: [
