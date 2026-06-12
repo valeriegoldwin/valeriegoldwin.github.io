@@ -111,19 +111,15 @@ export const portfolioData = {
   skills: [
     {
       category: "Design Tools",
-      items: ["Figma", "Sketch", "Adobe XD", "Principle", "ProtoPie"]
-    },
-    {
-      category: "Research & Testing",
-      items: ["UserTesting", "Maze", "Optimal Workshop", "Hotjar", "Google Analytics"]
-    },
-    {
-      category: "Collaboration",
-      items: ["Miro", "FigJam", "Notion", "Jira", "Slack"]
+      items: ["Figma", "Adobe XD", "Canva"]
     },
     {
       category: "Development",
-      items: ["HTML/CSS", "React Basics", "Tailwind CSS", "Git"]
+      items: ["Kotlin / Android", "HTML/CSS", "JavaScript"]
+    },
+    {
+      category: "Collaboration",
+      items: ["Git", "Jira"]
     }
   ],
   contact: {

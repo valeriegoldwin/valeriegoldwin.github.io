@@ -17,7 +17,7 @@ export const Skills = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {skills.map((skillGroup, index) => (
             <Card key={index} className="p-8 border-0 shadow-md hover:shadow-lg transition-shadow duration-300">
               <h3 className="text-xl font-bold text-gray-900 mb-6">
