@@ -25,39 +25,37 @@ export const Projects = () => {
         {/* Featured Case Study */}
         <div className="mb-32">
           <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow duration-500">
-            <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative overflow-hidden bg-gradient-to-br from-orange-100 to-orange-50">
-                <img
-                  src={featuredProject.image}
-                  alt={featuredProject.title}
-                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute top-4 left-4">
-                  <Badge className="bg-blue-600 text-white">
-                    Featured Case Study
-                  </Badge>
-                </div>
+            <div className="relative">
+              <img
+                src={featuredProject.image}
+                alt={featuredProject.title}
+                className="w-full h-auto block hover:scale-[1.02] transition-transform duration-700"
+              />
+              <div className="absolute top-4 left-4">
+                <Badge className="bg-blue-600 text-white">
+                  Featured Case Study
+                </Badge>
               </div>
-              <div className="p-10 md:p-12 flex flex-col justify-center space-y-6">
-                <div className="space-y-3">
-                  <p className="text-sm font-medium text-gray-600 uppercase tracking-wider">
-                    {featuredProject.category}
-                  </p>
-                  <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
-                    {featuredProject.title}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {featuredProject.overview}
-                  </p>
-                </div>
-                <Button
-                  onClick={() => navigate('/case-study')}
-                  className="bg-blue-600 hover:bg-blue-700 text-white w-fit group transition-all duration-300"
-                >
-                  View Case Study
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />
-                </Button>
+            </div>
+            <div className="p-10 md:p-12 space-y-6">
+              <div className="space-y-3">
+                <p className="text-sm font-medium text-gray-600 uppercase tracking-wider">
+                  {featuredProject.category}
+                </p>
+                <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+                  {featuredProject.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed max-w-3xl">
+                  {featuredProject.overview}
+                </p>
               </div>
+              <Button
+                onClick={() => navigate('/case-study')}
+                className="bg-blue-600 hover:bg-blue-700 text-white w-fit group transition-all duration-300"
+              >
+                View Case Study
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />
+              </Button>
             </div>
           </Card>
         </div>
