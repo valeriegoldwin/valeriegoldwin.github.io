@@ -17,38 +17,38 @@ export const portfolioData = {
   },
   featuredProject: {
     id: 1,
-    title: "HealthTrack Mobile App",
+    title: "Yum Yum - Your Culinary Assistant",
     category: "Mobile App Design",
     year: "2024",
     role: "Lead UX/UI Designer",
-    overview: "A comprehensive health and wellness tracking application that helps users monitor their fitness goals, nutrition, and mental wellbeing.",
-    challenge: "Users were struggling to maintain consistent health habits due to fragmented tracking tools and lack of motivational features. The existing solutions were either too complex or too simplistic.",
-    solution: "Designed an intuitive mobile app with personalized dashboards, smart reminders, and progress visualization. Implemented a gamification system to boost user engagement and habit formation.",
+    overview: "A culinary assistant mobile app that helps users discover eateries, join queues, and find food experiences tailored to their dietary preferences and cuisine tastes.",
+    challenge: "Diners often face long wait times at popular restaurants and struggle to find places that match their dietary needs (Halal, Vegetarian, Gluten-free, etc.). Existing food apps lacked an integrated solution combining queue management with personalized discovery.",
+    solution: "Designed an intuitive mobile app with a friendly mascot-driven experience that combines virtual queue joining, location-based eatery discovery, dietary tag filtering, and ongoing promo highlights — all in one seamless interface.",
     process: [
       {
         phase: "Research",
-        description: "Conducted 20+ user interviews and competitive analysis to understand pain points and user expectations."
+        description: "Conducted user interviews with frequent diners and restaurant operators to understand pain points around queue waiting times and dietary discovery challenges."
       },
       {
         phase: "Ideation",
-        description: "Created user personas, journey maps, and low-fidelity wireframes to explore different solutions."
+        description: "Created user personas, journey maps, and explored playful brand directions. Developed the friendly koala mascot to make the app approachable and memorable."
       },
       {
         phase: "Design",
-        description: "Developed high-fidelity mockups and an interactive prototype with a focus on accessibility and usability."
+        description: "Built a warm, appetizing color palette with orange tones. Designed key flows for joining queues, browsing eateries by tags and cuisines, and viewing ongoing promotions."
       },
       {
         phase: "Testing",
-        description: "Ran usability tests with 15 participants, iterating based on feedback to refine the experience."
+        description: "Ran usability tests focused on the queue-joining flow and tag-based filtering. Iterated on the search experience based on feedback for faster eatery discovery."
       }
     ],
     results: [
-      "40% increase in daily active users",
-      "4.8/5 average app store rating",
-      "65% of users maintained habits for 30+ days"
+      "60% reduction in perceived wait time",
+      "4.9/5 user satisfaction score",
+      "85% of users returned within 7 days"
     ],
     tools: ["Figma", "Maze", "Principle", "Miro"],
-    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80"
+    image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/dhlyzyzu_2.png"
   },
   projects: [
     {
