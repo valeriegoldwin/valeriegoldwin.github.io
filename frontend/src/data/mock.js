@@ -22,7 +22,7 @@ export const portfolioData = {
     year: "2024",
     role: "Lead Product and UI/UX Designer",
     overview: "A culinary assistant mobile app that helps users discover eateries, join queues, and find food experiences tailored to their dietary preferences and cuisine tastes.",
-    challenge: "Diners often face long wait times at popular restaurants and struggle to find places that match their dietary needs (Halal, Vegetarian, Gluten-free, etc.). Existing food apps lacked an integrated solution combining queue management with personalized discovery.",
+    challenge: "Diners often face long wait times at popular restaurants and struggle to find places that match their dietary needs (Halal, Vegetarian, Gluten-free, etc.). Traditional queue systems require customers to stay physically near the restaurant, creating frustration, uncertainty, and wasted time.\n\nStudies show that 86% of customers avoid businesses with long queues, and 70% are unlikely to return after experiencing excessive waiting times. This suggests that queue management is not only an operational challenge but also a critical user experience problem.",
     solution: "Designed an intuitive mobile app with a friendly mascot-driven experience that combines virtual queue joining, location-based eatery discovery, dietary tag filtering, and ongoing promo highlights — all in one seamless interface.",
     process: [
       {

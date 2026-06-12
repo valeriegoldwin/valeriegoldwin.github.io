@@ -72,9 +72,9 @@ export const CaseStudy = () => {
           {/* Challenge */}
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              The Challenge
+              Problem Statement
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed whitespace-pre-line">
               {featuredProject.challenge}
             </p>
           </div>
