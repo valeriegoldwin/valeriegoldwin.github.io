@@ -33,7 +33,7 @@ export const Hero = () => {
             <Button
               onClick={scrollToProjects}
               size="lg"
-              className="bg-gray-900 hover:bg-gray-700 text-white px-8 py-6 text-base transition-all duration-300"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-base transition-all duration-300"
             >
               {hero.cta}
             </Button>

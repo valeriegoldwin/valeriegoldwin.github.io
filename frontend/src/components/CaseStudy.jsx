@@ -96,10 +96,10 @@ export const CaseStudy = () => {
             </h2>
             <div className="space-y-8">
               {featuredProject.process.map((step, index) => (
-                <Card key={index} className="p-8 border-l-4 border-l-gray-900 shadow-sm hover:shadow-md transition-shadow">
+                <Card key={index} className="p-8 border-l-4 border-l-blue-600 shadow-sm hover:shadow-md transition-shadow">
                   <div className="space-y-3">
                     <div className="flex items-center gap-4">
-                      <div className="w-10 h-10 rounded-full bg-gray-900 text-white flex items-center justify-center font-bold">
+                      <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
                         {index + 1}
                       </div>
                       <h3 className="text-xl font-bold text-gray-900">
@@ -151,7 +151,7 @@ export const CaseStudy = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="py-20 px-6 bg-gray-900 text-white">
+      <div className="py-20 px-6 bg-blue-900 text-white">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold">
             Interested in working together?
@@ -165,7 +165,7 @@ export const CaseStudy = () => {
               }, 100);
             }}
             size="lg"
-            className="bg-white text-gray-900 hover:bg-gray-100 px-8 py-6 text-base transition-all duration-300"
+            className="bg-white text-blue-900 hover:bg-blue-50 px-8 py-6 text-base transition-all duration-300"
           >
             Get in Touch
           </Button>

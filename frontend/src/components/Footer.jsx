@@ -7,18 +7,18 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-12 px-6">
+    <footer className="bg-blue-900 text-white py-12 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <p className="text-2xl font-bold mb-2">Alex Morgan</p>
-            <p className="text-gray-400 text-sm">UI/UX Designer</p>
+            <p className="text-blue-200 text-sm">UI/UX Designer</p>
           </div>
 
           <div className="flex items-center gap-6">
             <a
               href={`mailto:${contact.email}`}
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-blue-200 hover:text-white transition-colors"
               aria-label="Email"
             >
               <Mail size={20} />
@@ -27,7 +27,7 @@ export const Footer = () => {
               href={`https://${contact.linkedin}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-blue-200 hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
@@ -36,7 +36,7 @@ export const Footer = () => {
               href={`https://twitter.com/${contact.twitter.replace('@', '')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-blue-200 hover:text-white transition-colors"
               aria-label="Twitter"
             >
               <Twitter size={20} />
@@ -44,8 +44,8 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p className="text-gray-400 text-sm">
+        <div className="mt-8 pt-8 border-t border-blue-800 text-center">
+          <p className="text-blue-200 text-sm">
             © {currentYear} Alex Morgan. All rights reserved.
           </p>
         </div>

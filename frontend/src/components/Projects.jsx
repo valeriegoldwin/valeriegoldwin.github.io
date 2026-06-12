@@ -33,7 +33,7 @@ export const Projects = () => {
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute top-4 left-4">
-                  <Badge className="bg-gray-900 text-white">
+                  <Badge className="bg-blue-600 text-white">
                     Featured Case Study
                   </Badge>
                 </div>
@@ -52,7 +52,7 @@ export const Projects = () => {
                 </div>
                 <Button
                   onClick={() => navigate('/case-study')}
-                  className="bg-gray-900 hover:bg-gray-700 text-white w-fit group transition-all duration-300"
+                  className="bg-blue-600 hover:bg-blue-700 text-white w-fit group transition-all duration-300"
                 >
                   View Case Study
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />

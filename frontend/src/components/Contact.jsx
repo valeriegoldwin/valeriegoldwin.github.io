@@ -23,7 +23,7 @@ export const Contact = () => {
             <Button
               onClick={() => window.location.href = `mailto:${contact.email}`}
               size="lg"
-              className="bg-gray-900 hover:bg-gray-700 text-white px-8 py-6 text-base transition-all duration-300 group"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-base transition-all duration-300 group"
             >
               <Mail className="mr-2 group-hover:scale-110 transition-transform" size={20} />
               Send Email

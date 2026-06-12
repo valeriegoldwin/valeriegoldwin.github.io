@@ -24,7 +24,7 @@ export const About = () => {
                 key={index}
                 className="flex items-start gap-4 p-6 bg-white rounded-lg hover:shadow-md transition-shadow duration-300"
               >
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gray-900 flex items-center justify-center mt-1">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center mt-1">
                   <Check size={14} className="text-white" />
                 </div>
                 <p className="text-gray-700 leading-relaxed">{point}</p>
