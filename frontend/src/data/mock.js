@@ -20,7 +20,7 @@ export const portfolioData = {
     title: "Yum Yum - Your Culinary Assistant",
     category: "Mobile App Design",
     year: "2024",
-    role: "Lead UX/UI Designer",
+    role: "Lead Product and UI/UX Designer",
     overview: "A culinary assistant mobile app that helps users discover eateries, join queues, and find food experiences tailored to their dietary preferences and cuisine tastes.",
     challenge: "Diners often face long wait times at popular restaurants and struggle to find places that match their dietary needs (Halal, Vegetarian, Gluten-free, etc.). Existing food apps lacked an integrated solution combining queue management with personalized discovery.",
     solution: "Designed an intuitive mobile app with a friendly mascot-driven experience that combines virtual queue joining, location-based eatery discovery, dietary tag filtering, and ongoing promo highlights — all in one seamless interface.",
