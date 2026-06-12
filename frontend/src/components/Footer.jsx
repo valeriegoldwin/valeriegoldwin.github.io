@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Twitter, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { portfolioData } from '../data/mock';
 
 export const Footer = () => {
@@ -22,24 +22,6 @@ export const Footer = () => {
               aria-label="Email"
             >
               <Mail size={20} />
-            </a>
-            <a
-              href={`https://${contact.linkedin}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-200 hover:text-white transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin size={20} />
-            </a>
-            <a
-              href={`https://twitter.com/${contact.twitter.replace('@', '')}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-200 hover:text-white transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter size={20} />
             </a>
           </div>
         </div>

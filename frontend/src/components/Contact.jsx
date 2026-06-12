@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, Twitter } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { Button } from './ui/button';
 import { portfolioData } from '../data/mock';
 
@@ -28,25 +28,6 @@ export const Contact = () => {
               <Mail className="mr-2 group-hover:scale-110 transition-transform" size={20} />
               Send Email
             </Button>
-          </div>
-
-          <div className="flex items-center justify-center gap-6 pt-8">
-            <a
-              href={`https://${contact.linkedin}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              <Linkedin size={24} />
-            </a>
-            <a
-              href={`https://twitter.com/${contact.twitter.replace('@', '')}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              <Twitter size={24} />
-            </a>
           </div>
         </div>
       </div>
