@@ -125,7 +125,7 @@ export const portfolioData = {
   contact: {
     heading: "Let's Work Together",
     description: "I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!",
-    email: "valerie.goldwin@example.com",
+    email: "valeriegoldwin31@gmail.com",
     linkedin: "linkedin.com/in/valeriegoldwin",
     twitter: "@valeriegoldwin"
   }
