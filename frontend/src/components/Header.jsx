@@ -40,7 +40,7 @@ export const Header = () => {
           onClick={() => scrollToSection('hero')}
           className="text-xl font-semibold text-gray-900 hover:text-gray-600 transition-colors"
         >
-          AM
+          VG
         </button>
 
         {/* Desktop Navigation */}

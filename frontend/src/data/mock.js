@@ -1,6 +1,6 @@
 export const portfolioData = {
   hero: {
-    name: "Alex Morgan",
+    name: "Valerie Goldwin",
     title: "UI/UX Designer",
     tagline: "Crafting intuitive digital experiences that bridge user needs and business goals",
     cta: "View My Work"
@@ -97,8 +97,8 @@ export const portfolioData = {
   contact: {
     heading: "Let's Work Together",
     description: "I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!",
-    email: "alex.morgan@example.com",
-    linkedin: "linkedin.com/in/alexmorgan",
-    twitter: "@alexmorgan_ux"
+    email: "valerie.goldwin@example.com",
+    linkedin: "linkedin.com/in/valeriegoldwin",
+    twitter: "@valeriegoldwin"
   }
 };
