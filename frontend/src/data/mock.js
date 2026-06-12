@@ -58,7 +58,7 @@ export const portfolioData = {
       { metric: "91%", label: "could still remember how to use the application's features after a period of non-use" },
       { metric: "98%", label: "expressed overall satisfaction with the application" }
     ],
-    tools: ["Figma", "Maze", "Principle", "Miro"],
+    tools: ["Figma", "Android Studio", "Firebase"],
     demoVideo: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/3rz0jxbz_Yum%20Yum%20Feature%20Demo.mp4",
     image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/dhlyzyzu_2.png"
   },
