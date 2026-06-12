@@ -7,7 +7,7 @@ export const portfolioData = {
   },
   about: {
     heading: "About Me",
-    intro: "I'm a UI/UX designer with 5+ years of experience creating user-centered digital products. My approach combines research-driven insights with creative problem-solving to deliver designs that are both beautiful and functional.",
+    intro: "I am a UI/UX Designer who bridges design and development to create user-centered digital experiences for web and mobile platforms. I enjoy turning ideas into structured systems, from research and design to real product implementation.",
     points: [
       "User research and usability testing",
       "Information architecture and user flows",
