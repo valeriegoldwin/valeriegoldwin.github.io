@@ -73,11 +73,11 @@ export const Projects = () => {
                 key={project.id}
                 className="overflow-hidden border-0 shadow-md hover:shadow-xl transition-all duration-500 group cursor-pointer"
               >
-                <div className="relative aspect-[16/10] overflow-hidden bg-gray-50 flex items-center justify-center">
+                <div className="relative overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
+                    className="w-full h-auto block group-hover:scale-105 transition-transform duration-700"
                   />
                 </div>
                 <div className="p-6 space-y-4">
