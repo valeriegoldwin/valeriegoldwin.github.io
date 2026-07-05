@@ -1,55 +1,63 @@
 export const portfolioData = {
   hero: {
     name: "Valerie Goldwin",
-    title: "UI/UX Designer",
-    tagline: "UI/UX Designer designing user-centered web and mobile experiences from concept to product.",
+    title: "Mobile Application Developer | Product Designer | UI/UX Designer",
+    tagline: "Designing intuitive, user-centered digital experiences by combining UI/UX expertise with a strong foundation in mobile application development.",
     cta: "View My Work"
   },
   about: {
     heading: "About Me",
-    intro: "UI/UX Designer with 3+ years of experience working on freelance and company projects in e-commerce, healthcare, and travel industries. I specialize in turning complex problems into simple, user-friendly digital experiences.",
+    intro: "Possess a strong foundation in mobile application development, UI/UX design, user flow design, and user experience best practices. Skilled in collaborating with cross-functional teams, including developers and stakeholders, to translate business requirements into user-centered digital solutions. Experienced in using Figma to design wireframes, interactive prototypes, and intuitive interfaces that improve usability and enhance the overall user experience.",
     points: [
       "User research and usability testing",
       "Information architecture and user flows",
-      "Interactive prototyping and design systems",
-      "Accessibility and inclusive design"
+      "Wireframing, interactive prototyping, and design systems",
+      "Mobile application development"
     ]
   },
   featuredProject: {
     id: 1,
     title: "Yum Yum - Your Culinary Assistant",
-    category: "Mobile App Design",
+    category: "Mobile App",
     year: "2024",
-    role: "Lead Product and UI/UX Designer",
+    role: "Product Designer & Developer",
     overview: "A culinary assistant mobile app that helps users discover eateries, join queues, and find food experiences tailored to their dietary preferences and cuisine tastes.",
     challenge: "Diners often face long wait times at popular restaurants and struggle to find places that match their dietary needs (Halal, Vegetarian, Gluten-free, etc.). Traditional queue systems require customers to stay physically near the restaurant, creating frustration, uncertainty, and wasted time.\n\nStudies show that 86% of customers avoid businesses with long queues, and 70% are unlikely to return after experiencing excessive waiting times. This suggests that queue management is not only an operational challenge but also a critical user experience problem.",
     solution: "Designed an intuitive mobile app with a friendly mascot-driven experience that combines virtual queue joining, location-based eatery discovery, dietary tag filtering, and ongoing promo highlights — all in one seamless interface.",
     process: [
-      {
-        phase: "User Research",
-        description: "Conducted user interviews and competitive analysis to understand pain points around queue waiting times and dietary discovery challenges."
-      },
-      {
-        phase: "User Flow",
-        description: "Mapped out end-to-end user journeys for joining queues, discovering eateries by tags and cuisines, and tracking ongoing promos."
-      },
-      {
-        phase: "Wireframes",
-        description: "Created low-fidelity wireframes to explore layouts and validate the structure of key screens before moving to visual design."
-      },
-      {
-        phase: "UI Design",
-        description: "Designed high-fidelity screens with a warm orange palette and friendly bear mascot to make the experience approachable and memorable."
-      },
-      {
-        phase: "Prototype",
-        description: "Built an interactive prototype to simulate the core flows, enabling usability testing and stakeholder feedback before development."
-      },
-      {
-        phase: "Usability Testing",
-        description: "Ran usability tests with target users to validate the queue-joining flow and tag-based filtering. Iterated on the search experience based on feedback for faster eatery discovery."
-      }
-    ],
+  {
+    phase: "User Research",
+    description: "Conducted user interviews and competitive analysis to understand pain points around queue waiting times and dietary discovery challenges."
+  },
+  {
+    phase: "User Flow",
+    description: "Mapped out end-to-end user journeys for joining queues, discovering eateries by tags and cuisines, and tracking ongoing promos."
+  },
+  {
+    phase: "Wireframes",
+    description: "Created low-fidelity wireframes to explore layouts and validate the structure of key screens before moving to visual design."
+  },
+  {
+    phase: "UI Design",
+    description: "Designed high-fidelity screens with a warm orange palette and friendly bear mascot to create an approachable and memorable user experience."
+  },
+  {
+    phase: "Prototype",
+    description: "Built an interactive prototype to simulate core user flows, enabling usability testing and stakeholder feedback before development."
+  },
+  {
+    phase: "Usability Testing",
+    description: "Conducted usability testing to validate the queue-joining flow and tag-based filtering, then refined the search experience based on user feedback."
+  },
+  {
+    phase: "Development",
+    description: "Implemented the application using Kotlin for Android, integrating Firebase services and translating the approved designs into a fully functional mobile application."
+  },
+  {
+    phase: "Testing & Iteration",
+    description: "Performed functional testing, resolved issues, optimized performance, and iterated on the product to ensure a smooth and reliable user experience."
+  }
+],
     resultsIntro: "A usability evaluation was conducted involving 102 customer respondents and 2 restaurant owners. The results indicate strong user acceptance of the application:",
     results: [
       { metric: "89%", label: "did not require a long time to learn how to use the application" },
@@ -58,7 +66,7 @@ export const portfolioData = {
       { metric: "91%", label: "could still remember how to use the application's features after a period of non-use" },
       { metric: "98%", label: "expressed overall satisfaction with the application" }
     ],
-    tools: ["Figma", "Android Studio", "Firebase"],
+    tools: ["Figma", "Android Studio", "Kotlin", "Firebase"],
     demoVideo: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/3rz0jxbz_Yum%20Yum%20Feature%20Demo.mp4",
     image: "https://customer-assets.emergentagent.com/job_interface-lab-25/artifacts/dhlyzyzu_2.png"
   },
