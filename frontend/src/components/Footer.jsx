@@ -12,7 +12,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <p className="text-2xl font-bold mb-2">{hero.name}</p>
-            <p className="text-blue-200 text-sm">UI/UX Designer</p>
+            <p className="text-blue-200 text-sm">Mobile Application Developer | Product Designer | UI/UX Designer</p>
           </div>
 
           <div className="flex items-center gap-6">
